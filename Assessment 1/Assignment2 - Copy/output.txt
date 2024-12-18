@@ -1,0 +1,1401 @@
+Script started on 2022-07-16 21:18:53-07:00
+]0;ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/assignment2ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/assignment2 $ exit[4@./outputg++ main.cpp student.cpp  assignment.cpp -o output
+]0;ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/assignment2ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/assignment2 $ g++ main.cpp student.cpp  assignment.cpp -o output[Auxprod01:~/CS162/assignment2 $ exit[K
+[K[Aishanshi.bhardwaj@vmcslinuxprod01:~/CS162/assignment2 $ exit[4@./output
+Welcome to my class management program!
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    GRADE - Display grade inforamtion for one student
+    PCT - Display the Pass, Fail, and Completion percentages
+    REMOVE - Remove item from a list
+    ADD - Add item to a list
+    QUIT - End this program 
+
+Enter Option: load
+Enter file name of G-Number  file of up to 30 characters: gnum.rxr   txt
+Enter file name of student name file of up to 30 characters: name.txt
+Enter file name of student assignment file of up to 30 characters: assignment.txt
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    GRADE - Display grade inforamtion for one student
+    PCT - Display the Pass, Fail, and Completion percentages
+    REMOVE - Remove item from a list
+    ADD - Add item to a list
+    QUIT - End this program 
+
+Enter Option: display
+   0. G00000026 Henrietta Smith
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+   1. G00000023 Jenny Doe
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+   2. G00000001 John Doe
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+   3. G00000011 John Smith
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+   4. G00000021 Mary Doe
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+   5. G00000025 Roberta Doe
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+   6. G00000022 Sally Smith
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+   7. G00000024 Wanda Smith
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+   8. G00000007 Henry Doe
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+   9. G00000017 Henry Smith
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+  10. G00000002 Jim Doe
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+  11. G00000012 Jim Smith
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+  12. G00000003 Bob Doe
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+  13. G00000013 Bob Smith
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+  14. G00000004 Dan Doe
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+  15. G00000014 Dan Smith
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+  16. G00000005 Caleb Doe
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+  17. G00000015 Caleb Smith
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+  18. G00000006 Sam Doe
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+  19. G00000016 Sam Smith
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+  20. G00000010 Billy Doe
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+  21. G00000020 Billy Smith
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+  22. G00000009 Rupert Doe
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+  23. G00000019 Rupert Smith
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+  24. G00000008 James Doe
+    Structs       4    (10%) 
+    Classes       4    (10%) 
+    Dynamic Memory       4    (10%) 
+    Linked Lists 1       4    (10%) 
+    Linked Lists 2       4    (10%) 
+    Assessment 1       4    (12.5%) 
+    Assessment 2       4    (12.5%) 
+    Assessment 3       4    (12.5%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: A
+  25. G00000018 James Smith
+    Classes       4    (10%) 
+    Assessment 4       4    (12.5%) 
+Final Grade: F
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    GRADE - Display grade inforamtion for one student
+    PCT - Display the Pass, Fail, and Completion percentages
+    REMOVE - Remove item from a list
+    ADD - Add item to a list
+    QUIT - End this program 
+
+Enter Option: fpa   gpa
+Average GPA for 26 students is 3.85.
+
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    GRADE - Display grade inforamtion for one student
+    PCT - Display the Pass, Fail, and Completion percentages
+    REMOVE - Remove item from a list
+    ADD - Add item to a list
+    QUIT - End this program 
+
+Enter Option: grade
+Enter Student Name or Student G-Number: G00000008
+
+   0. G00000008 James Doe Final Grade: A
+     Name: Structs  Weight: 10.00%       Score: 4 Contribution: 0.40
+
+
+     Name: Classes  Weight: 10.00%       Score: 4 Contribution: 0.40
+
+
+     Name: Dynamic Memory  Weight: 10.00%       Score: 4 Contribution: 0.40
+
+
+     Name: Linked Lists 1  Weight: 10.00%       Score: 4 Contribution: 0.40
+
+
+     Name: Linked Lists 2  Weight: 10.00%       Score: 4 Contribution: 0.40
+
+
+     Name: Assessment 1  Weight: 12.50%       Score: 4 Contribution: 0.50
+
+
+     Name: Assessment 2  Weight: 12.50%       Score: 4 Contribution: 0.50
+
+
+     Name: Assessment 3  Weight: 12.50%       Score: 4 Contribution: 0.50
+
+
+     Name: Assessment 4  Weight: 12.50%       Score: 4 Contribution: 0.50
+
+
+   Total: 4.00
+
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    GRADE - Display grade inforamtion for one student
+    PCT - Display the Pass, Fail, and Completion percentages
+    REMOVE - Remove item from a list
+    ADD - Add item to a list
+    QUIT - End this program 
+
+Enter Option: pct
+
+Total Students: 26 (100%)
+Total Completions: 26 (100.00%)
+Passing Grades: 25 (96.15%)
+Non-Passing Grades: 1 (3.85%)
+AUD Grades: 0 (0.00%)
+
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    GRADE - Display grade inforamtion for one student
+    PCT - Display the Pass, Fail, and Completion percentages
+    REMOVE - Remove item from a list
+    ADD - Add item to a list
+    QUIT - End this program 
+
+Enter Option: remove
+     A or a  - for Assignment
+     S or s  - for Student
+     B or b  - return to previous
+Enter choice: a
+Assignment 
+Enter student name: Jenny Doe
+Enter assignment name: Structs
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    GRADE - Display grade inforamtion for one student
+    PCT - Display the Pass, Fail, and Completion percentages
+    REMOVE - Remove item from a list
+    ADD - Add item to a list
+    QUIT - End this program 
+
+Enter Option: display
+   0. G00000026 Henrietta Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   1. G00000023 Jenny Doe
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   2. G00000001 John Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   3. G00000011 John Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   4. G00000021 Mary Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   5. G00000025 Roberta Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   6. G00000022 Sally Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   7. G00000024 Wanda Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   8. G00000007 Henry Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   9. G00000017 Henry Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  10. G00000002 Jim Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  11. G00000012 Jim Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  12. G00000003 Bob Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  13. G00000013 Bob Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  14. G00000004 Dan Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  15. G00000014 Dan Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  16. G00000005 Caleb Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  17. G00000015 Caleb Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  18. G00000006 Sam Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  19. G00000016 Sam Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  20. G00000010 Billy Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  21. G00000020 Billy Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  22. G00000009 Rupert Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  23. G00000019 Rupert Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  24. G00000008 James Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  25. G00000018 James Smith
+    Classes       4    (10.00%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: F
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    GRADE - Display grade inforamtion for one student
+    PCT - Display the Pass, Fail, and Completion percentages
+    REMOVE - Remove item from a list
+    ADD - Add item to a list
+    QUIT - End this program 
+
+Enter Option: ^[[A^[[A        remove
+     A or a  - for Assignment
+     S or s  - for Student
+     B or b  - return to previous
+Enter choice: Jenny Doe
+?Invalid option
+     A or a  - for Assignment
+     S or s  - for Student
+     B or b  - return to previous
+Enter choice: a
+Assignment 
+Enter student name: Jenny      ames SMith    mith
+Enter assignment name: Classes
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    GRADE - Display grade inforamtion for one student
+    PCT - Display the Pass, Fail, and Completion percentages
+    REMOVE - Remove item from a list
+    ADD - Add item to a list
+    QUIT - End this program 
+
+Enter Option: display
+   0. G00000026 Henrietta Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   1. G00000023 Jenny Doe
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   2. G00000001 John Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   3. G00000011 John Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   4. G00000021 Mary Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   5. G00000025 Roberta Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   6. G00000022 Sally Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   7. G00000024 Wanda Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   8. G00000007 Henry Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   9. G00000017 Henry Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  10. G00000002 Jim Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  11. G00000012 Jim Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  12. G00000003 Bob Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  13. G00000013 Bob Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  14. G00000004 Dan Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  15. G00000014 Dan Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  16. G00000005 Caleb Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  17. G00000015 Caleb Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  18. G00000006 Sam Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  19. G00000016 Sam Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  20. G00000010 Billy Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  21. G00000020 Billy Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  22. G00000009 Rupert Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  23. G00000019 Rupert Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  24. G00000008 James Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  25. G00000018 James Smith
+    Assessment 4       4    (12.50%) 
+Final Grade: F
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    GRADE - Display grade inforamtion for one student
+    PCT - Display the Pass, Fail, and Completion percentages
+    REMOVE - Remove item from a list
+    ADD - Add item to a list
+    QUIT - End this program 
+
+Enter Option: grade
+Enter Student Name or Student G-Number: Jenny Doe
+0. G00000023 Jenny Doe  Final Grade: A
+Name: Classes  Weight: 10.00%  Score: 4  Contribution: 0.40
+
+Name: Dynamic Memory  Weight: 10.00%  Score: 4  Contribution: 0.40
+
+Name: Linked Lists 1  Weight: 10.00%  Score: 4  Contribution: 0.40
+
+Name: Linked Lists 2  Weight: 10.00%  Score: 4  Contribution: 0.40
+
+Name: Assessment 1  Weight: 12.50%  Score: 4  Contribution: 0.50
+
+Name: Assessment 2  Weight: 12.50%  Score: 4  Contribution: 0.50
+
+Name: Assessment 3  Weight: 12.50%  Score: 4  Contribution: 0.50
+
+Name: Assessment 4  Weight: 12.50%  Score: 4  Contribution: 0.50
+
+
+
+Total: 3.60
+
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    GRADE - Display grade inforamtion for one student
+    PCT - Display the Pass, Fail, and Completion percentages
+    REMOVE - Remove item from a list
+    ADD - Add item to a list
+    QUIT - End this program 
+
+Enter Option: add
+size before is 26
+     A or a  - for Assignment
+     S or s  - for Student
+     B or b  - return to previous
+Enter choice: s
+Student 
+Enter student name: Doug Jones
+Enter G-Number forDoug Jones: G44554444
+size in function is 27
+Size after is 27
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    GRADE - Display grade inforamtion for one student
+    PCT - Display the Pass, Fail, and Completion percentages
+    REMOVE - Remove item from a list
+    ADD - Add item to a list
+    QUIT - End this program 
+
+Enter Option: display
+   0. G00000026 Henrietta Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   1. G00000023 Jenny Doe
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   2. G00000001 John Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   3. G00000011 John Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   4. G00000021 Mary Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   5. G00000025 Roberta Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   6. G00000022 Sally Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   7. G00000024 Wanda Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   8. G00000007 Henry Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+   9. G00000017 Henry Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  10. G00000002 Jim Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  11. G00000012 Jim Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  12. G00000003 Bob Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  13. G00000013 Bob Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  14. G00000004 Dan Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  15. G00000014 Dan Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  16. G00000005 Caleb Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  17. G00000015 Caleb Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  18. G00000006 Sam Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  19. G00000016 Sam Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  20. G00000010 Billy Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  21. G00000020 Billy Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  22. G00000009 Rupert Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  23. G00000019 Rupert Smith
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  24. G00000008 James Doe
+    Structs       4    (10.00%) 
+    Classes       4    (10.00%) 
+    Dynamic Memory       4    (10.00%) 
+    Linked Lists 1       4    (10.00%) 
+    Linked Lists 2       4    (10.00%) 
+    Assessment 1       4    (12.50%) 
+    Assessment 2       4    (12.50%) 
+    Assessment 3       4    (12.50%) 
+    Assessment 4       4    (12.50%) 
+Final Grade: A
+  25. G00000018 James Smith
+    Assessment 4       4    (12.50%) 
+Final Grade: F
+  26. G44554444 Doug Jones
+Final Grade: F
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    GRADE - Display grade inforamtion for one student
+    PCT - Display the Pass, Fail, and Completion percentages
+    REMOVE - Remove item from a list
+    ADD - Add item to a list
+    QUIT - End this program 
+
+Enter Option: add
+size before is 27
+     A or a  - for Assignment
+     S or s  - for Student
+     B or b  - return to previous
+Enter choice: a
+Assignment 
+Enter student name: Doug Jones
+Enter assignment name: Structs
+Enter assignment weight: 0.5
+Enter assignment grade: 4
+Size after is 27
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    GRADE - Display grade inforamtion for one student
+    PCT - Display the Pass, Fail, and Completion percentages
+    REMOVE - Remove item from a list
+    ADD - Add item to a list
+    QUIT - End this program 
+
+Enter Option: disp    grade
+Enter Student Name or Student G-Number: Doug Jones
+0. G44554444 Doug Jones  Final Grade: C
+Name: Structs  Weight: 50.00%  Score: 4  Contribution: 2.00
+
+
+
+Total: 2.00
+
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    GRADE - Display grade inforamtion for one student
+    PCT - Display the Pass, Fail, and Completion percentages
+    REMOVE - Remove item from a list
+    ADD - Add item to a list
+    QUIT - End this program 
+
+Enter Option: quit
+]0;ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/assignment2ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/assignment2 $ exit
+exit
+
+Script done on 2022-07-16 21:23:27-07:00

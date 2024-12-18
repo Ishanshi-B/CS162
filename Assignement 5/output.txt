@@ -1,0 +1,226 @@
+Script started on 2022-09-04 09:09:38-07:00
+]0;ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/Assignments/Assignment5ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/Assignments/Assignment5 $ g++ main.cpp  list.cpp item.cpp
+]0;ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/Assignments/Assignment5ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/Assignments/Assignment5 $ ./a/ .out
+Welcome to Shopping List Maintenance!
+Please enter one of the following options: 
+	1		- Quit the program
+	2		- Erase all items from the list (resulting in an empty list)
+	3		- Add an item to the list
+	4		- Remove an item from the list
+	5		- Update an item in the list
+	6		- Display all items in the list
+Enter Option: 3
+Enter name, quantity, price: apple, 2, 3.0
+Please enter one of the following options: 
+	1		- Quit the program
+	2		- Erase all items from the list (resulting in an empty list)
+	3		- Add an item to the list
+	4		- Remove an item from the list
+	5		- Update an item in the list
+	6		- Display all items in the list
+Enter Option: 4
+Enter match criterion: 1 for name, 2 for qty, 3 for price: 1
+Enter item name to remove: apple
+Please enter one of the following options: 
+	1		- Quit the program
+	2		- Erase all items from the list (resulting in an empty list)
+	3		- Add an item to the list
+	4		- Remove an item from the list
+	5		- Update an item in the list
+	6		- Display all items in the list
+Enter Option: 6
+Please enter one of the following options: 
+	1		- Quit the program
+	2		- Erase all items from the list (resulting in an empty list)
+	3		- Add an item to the list
+	4		- Remove an item from the list
+	5		- Update an item in the list
+	6		- Display all items in the list
+Enter Option: 1
+Goodbye!
+]0;ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/Assignments/Assignment5ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/Assignments/Assignment5 $ ./a.out
+Welcome to Shopping List Maintenance!
+Please enter one of the following options: 
+	1		- Quit the program
+	2		- Erase all items from the list (resulting in an empty list)
+	3		- Add an item to the list
+	4		- Remove an item from the list
+	5		- Update an item in the list
+	6		- Display all items in the list
+Enter Option: 3
+Enter name, quantity, price: oear    pear, 2, 3.0
+Please enter one of the following options: 
+	1		- Quit the program
+	2		- Erase all items from the list (resulting in an empty list)
+	3		- Add an item to the list
+	4		- Remove an item from the list
+	5		- Update an item in the list
+	6		- Display all items in the list
+Enter Option: 5
+Enter match criterion: 1 for name, 2 for qty, 3 for price: 2
+Enter quantity to match: 2
+Enter new item quantity: 4
+Item not found in list!
+Please enter one of the following options: 
+	1		- Quit the program
+	2		- Erase all items from the list (resulting in an empty list)
+	3		- Add an item to the list
+	4		- Remove an item from the list
+	5		- Update an item in the list
+	6		- Display all items in the list
+Enter Option: 6
+1 Items in the list. Total cost is 12
+pear (4 at $3) Total cost $12
+Please enter one of the following options: 
+	1		- Quit the program
+	2		- Erase all items from the list (resulting in an empty list)
+	3		- Add an item to the list
+	4		- Remove an item from the list
+	5		- Update an item in the list
+	6		- Display all items in the list
+Enter Option: 2
+Please enter one of the following options: 
+	1		- Quit the program
+	2		- Erase all items from the list (resulting in an empty list)
+	3		- Add an item to the list
+	4		- Remove an item from the list
+	5		- Update an item in the list
+	6		- Display all items in the list
+Enter Option: 6
+Please enter one of the following options: 
+	1		- Quit the program
+	2		- Erase all items from the list (resulting in an empty list)
+	3		- Add an item to the list
+	4		- Remove an item from the list
+	5		- Update an item in the list
+	6		- Display all items in the list
+Enter Option: 1
+Goodbye!
+]0;ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/Assignments/Assignment5ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/Assignments/Assignment5 $ valf grind --l eak-check=full ./o a.out
+==784383== Memcheck, a memory error detector
+==784383== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==784383== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==784383== Command: ./a.out
+==784383== 
+Welcome to Shopping List Maintenance!
+Please enter one of the following options: 
+	1		- Quit the program
+	2		- Erase all items from the list (resulting in an empty list)
+	3		- Add an item to the list
+	4		- Remove an item from the list
+	5		- Update an item in the list
+	6		- Display all items in the list
+Enter Option: 3
+Enter name, quantity, price: apple, 2, 3.0
+Please enter one of the following options: 
+	1		- Quit the program
+	2		- Erase all items from the list (resulting in an empty list)
+	3		- Add an item to the list
+	4		- Remove an item from the list
+	5		- Update an item in the list
+	6		- Display all items in the list
+Enter Option: 1
+Goodbye!
+==784383== 
+==784383== HEAP SUMMARY:
+==784383==     in use at exit: 0 bytes in 0 blocks
+==784383==   total heap usage: 24 allocs, 24 frees, 74,891 bytes allocated
+==784383== 
+==784383== All heap blocks were freed -- no leaks are possible
+==784383== 
+==784383== For lists of detected and suppressed errors, rerun with: -s
+==784383== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/Assignments/Assignment5ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/Assignments/Assignment5 $ valgrind --leeak-check=full ./a.out
+==784388== Memcheck, a memory error detector
+==784388== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==784388== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==784388== Command: ./a.out
+==784388== 
+Welcome to Shopping List Maintenance!
+Please enter one of the following options: 
+	1		- Quit the program
+	2		- Erase all items from the list (resulting in an empty list)
+	3		- Add an item to the list
+	4		- Remove an item from the list
+	5		- Update an item in the list
+	6		- Display all items in the list
+Enter Option: 3
+Enter name, quantity, price: pear, 2, 3.0
+Please enter one of the following options: 
+	1		- Quit the program
+	2		- Erase all items from the list (resulting in an empty list)
+	3		- Add an item to the list
+	4		- Remove an item from the list
+	5		- Update an item in the list
+	6		- Display all items in the list
+Enter Option: 5
+Enter match criterion: 1 for name, 2 for qty, 3 for price: 2
+Enter quantity to match: 2
+Enter new item quantity: 3
+Item not found in list!
+Please enter one of the following options: 
+	1		- Quit the program
+	2		- Erase all items from the list (resulting in an empty list)
+	3		- Add an item to the list
+	4		- Remove an item from the list
+	5		- Update an item in the list
+	6		- Display all items in the list
+Enter Option: 1
+Goodbye!
+==784388== 
+==784388== HEAP SUMMARY:
+==784388==     in use at exit: 0 bytes in 0 blocks
+==784388==   total heap usage: 34 allocs, 34 frees, 74,895 bytes allocated
+==784388== 
+==784388== All heap blocks were freed -- no leaks are possible
+==784388== 
+==784388== For lists of detected and suppressed errors, rerun with: -s
+==784388== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/Assignments/Assignment5ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/Assignments/Assignment5 $ valgrind --leeak-check=full ./a.out
+==784401== Memcheck, a memory error detector
+==784401== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==784401== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==784401== Command: ./a.out
+==784401== 
+Welcome to Shopping List Maintenance!
+Please enter one of the following options: 
+	1		- Quit the program
+	2		- Erase all items from the list (resulting in an empty list)
+	3		- Add an item to the list
+	4		- Remove an item from the list
+	5		- Update an item in the list
+	6		- Display all items in the list
+Enter Option: 3
+Enter name, quantity, price: apple, 2, 3.0
+Please enter one of the following options: 
+	1		- Quit the program
+	2		- Erase all items from the list (resulting in an empty list)
+	3		- Add an item to the list
+	4		- Remove an item from the list
+	5		- Update an item in the list
+	6		- Display all items in the list
+Enter Option: 6
+1 Items in the list. Total cost is 6
+apple (2 at $3) Total cost $6
+Please enter one of the following options: 
+	1		- Quit the program
+	2		- Erase all items from the list (resulting in an empty list)
+	3		- Add an item to the list
+	4		- Remove an item from the list
+	5		- Update an item in the list
+	6		- Display all items in the list
+Enter Option: 1
+Goodbye!
+==784401== 
+==784401== HEAP SUMMARY:
+==784401==     in use at exit: 0 bytes in 0 blocks
+==784401==   total heap usage: 28 allocs, 28 frees, 74,901 bytes allocated
+==784401== 
+==784401== All heap blocks were freed -- no leaks are possible
+==784401== 
+==784401== For lists of detected and suppressed errors, rerun with: -s
+==784401== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/Assignments/Assignment5ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/Assignments/Assignment5 $ exit
+exit
+
+Script done on 2022-09-04 09:11:42-07:00

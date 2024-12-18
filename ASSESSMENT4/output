@@ -1,0 +1,62 @@
+Script started on 2022-08-31 10:58:38-07:00
+]0;ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/Assessments/practiceAssessment4ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/Assessments/practiceAssessment4 $ exit[2Pls./output[14@g++ main.cpp -o output      a result
+]0;ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/Assessments/practiceAssessment4ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/Assessments/practiceAssessment4 $ ./result
+Enter input text (BLANK LINE to end):
+hii how are you doing
+
+
+List of Words:
+are (3)
+hii (3)
+how (3)
+you (3)
+doing (5)
+
+Enter search string: h
+Enter replacement string: x
+Replacing "h" with "x" in all list entries.
+Updated List:
+are (3)
+xii (3)
+xow (3)
+you (3)
+doing (5)
+]0;ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/Assessments/practiceAssessment4ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/Assessments/practiceAssessment4 $ valgrind --lk eak-check=full ./result
+==451067== Memcheck, a memory error detector
+==451067== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==451067== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==451067== Command: ./result
+==451067== 
+Enter input text (BLANK LINE to end):
+hii how are you doing
+
+
+List of Words:
+are (3)
+hii (3)
+how (3)
+you (3)
+doing (5)
+
+Enter search string: i
+Enter replacement string: x
+Replacing "i" with "x" in all list entries.
+Updated List:
+are (3)
+hxi (3)
+how (3)
+you (3)
+doxng (5)
+==451067== 
+==451067== HEAP SUMMARY:
+==451067==     in use at exit: 0 bytes in 0 blocks
+==451067==   total heap usage: 16 allocs, 16 frees, 75,076 bytes allocated
+==451067== 
+==451067== All heap blocks were freed -- no leaks are possible
+==451067== 
+==451067== For lists of detected and suppressed errors, rerun with: -s
+==451067== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/Assessments/practiceAssessment4ishanshi.bhardwaj@vmcslinuxprod01:~/CS162/Assessments/practiceAssessment4 $ exit
+exit
+
+Script done on 2022-08-31 10:59:31-07:00
