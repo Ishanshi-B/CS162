@@ -1,0 +1,165 @@
+Script started on 2022-07-03 09:02:23-07:00
+bash: export: which: not a function
+]0;ishanshi.bhardwaj@vmcslinuxprod01:~/CS162ishanshi.bhardwaj@vmcslinuxprod01:~/CS162 $ g++ main.cpp student.cpp -o output
+]0;ishanshi.bhardwaj@vmcslinuxprod01:~/CS162ishanshi.bhardwaj@vmcslinuxprod01:~/CS162 $ ./output
+Welcome to my class management program!
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    PCT - Display the Pass, Fail, and Completion percentages
+    QUIT - End this program 
+
+Enter Option: something
+?Unrecognized option: "something"
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    PCT - Display the Pass, Fail, and Completion percentages
+    QUIT - End this program 
+
+Enter Option: L
+?Unrecognized option: "L"
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    PCT - Display the Pass, Fail, and Completion percentages
+    QUIT - End this program 
+
+Enter Option: Loa  A^HOA
+?Unrecognized option: "LAOA"
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    PCT - Display the Pass, Fail, and Completion percentages
+    QUIT - End this program 
+
+Enter Option: LOAD
+Enter a file name: roster2
+
+[ 30 records read from "roster2"]
+
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    PCT - Display the Pass, Fail, and Completion percentages
+    QUIT - End this program 
+
+Enter Option: DISPLAY
+   0.                          Jenny Doe   G00000023         A
+   1.                           John Doe   G00000001         A
+   2.                         John Smith   G00000011         A
+   3.                           Mary Doe   G00000021         A
+   4.                        Roberta Doe   G00000025         A
+   5.                        Sally Smith   G00000022         A
+   6.                        Wanda Smith   G00000024         A
+   7.                          Henry Doe   G00000007       AUD
+   8.                        Henry Smith   G00000017       AUD
+   9.                            Jim Doe   G00000002         B
+  10.                            Jim Eod   G11000002         B
+  11.                          Jim Htims   G11000012         B
+  12.                          Jim Smith   G00000012         B
+  13.                            Bob Doe   G00000003         C
+  14.                            Bob Eod   G11000003         C
+  15.                          Bob Htims   G11000013         C
+  16.                          Bob Smith   G00000013         C
+  17.                            Dan Doe   G00000004         D
+  18.                            Dan Eod   G11000004         D
+  19.                          Dan Htims   G11000014         D
+  20.                          Dan Smith   G00000014         D
+  21.                          Caleb Doe   G00000005         F
+  22.                          Caleb Eod   G11000005         F
+  23.                        Caleb Htims   G11000015         F
+  24.                        Caleb Smith   G00000015         F
+  25.                            Sam Doe   G00000006         I
+  26.                            Sam Eod   G11000006         I
+  27.                          Sam Htims   G11000016         I
+  28.                          Sam Smith   G00000016         I
+  29.                          Billy Doe   G00000010        NP
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    PCT - Display the Pass, Fail, and Completion percentages
+    QUIT - End this program 
+
+Enter Option: GPA
+Average GPA for 30 students is 1.79.
+
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    PCT - Display the Pass, Fail, and Completion percentages
+    QUIT - End this program 
+
+Enter Option: PCT
+
+Total Students: 30 (100%)
+Total Completions: 26 (86.67%)
+Passing Grades: 15 (50.00%)
+Non-Passing Grades: 13 (43.33%)
+AUD Grades: 2 (6.67%)
+
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    PCT - Display the Pass, Fail, and Completion percentages
+    QUIT - End this program 
+
+Enter Option: LOAD
+Enter a file name: roster1
+
+[ 26 records read from "roster1"]
+
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    PCT - Display the Pass, Fail, and Completion percentages
+    QUIT - End this program 
+
+Enter Option: Di isplay
+   0.                          Jenny Doe   G00000023         A
+   1.                           John Doe   G00000001         A
+   2.                         John Smith   G00000011         A
+   3.                           Mary Doe   G00000021         A
+   4.                        Roberta Doe   G00000025         A
+   5.                        Sally Smith   G00000022         A
+   6.                        Wanda Smith   G00000024         A
+   7.                          Henry Doe   G00000007       AUD
+   8.                        Henry Smith   G00000017       AUD
+   9.                            Jim Doe   G00000002         B
+  10.                          Jim Smith   G00000012         B
+  11.                            Bob Doe   G00000003         C
+  12.                          Bob Smith   G00000013         C
+  13.                            Dan Doe   G00000004         D
+  14.                          Dan Smith   G00000014         D
+  15.                          Caleb Doe   G00000005         F
+  16.                        Caleb Smith   G00000015         F
+  17.                            Sam Doe   G00000006         I
+  18.                          Sam Smith   G00000016         I
+  19.                          Billy Doe   G00000010        NP
+  20.                        Billy Smith   G00000020        NP
+  21.                         Rupert Doe   G00000009         P
+  22.                       Rupert Smith   G00000019         P
+  23.                          James Doe   G00000008         W
+  24.                        James Smith   G00000018         W
+  25.                                                         
+Please enter one of the following options: 
+    LOAD - Load roster data from an input file
+    DISPLAY - Display the current roster data 
+    GPA - Display the average GPA for the roster 
+    PCT - Display the Pass, Fail, and Completion percentages
+    QUIT - End this program 
+
+Enter Option: qui IT
+]0;ishanshi.bhardwaj@vmcslinuxprod01:~/CS162ishanshi.bhardwaj@vmcslinuxprod01:~/CS162 $ exit
+exit
+
+Script done on 2022-07-03 09:03:56-07:00
